@@ -1,0 +1,20 @@
+# Nob Compilation Binaries & Utilities
+nob
+nob.old
+sandbox
+
+# C Object Compilation Artifact Cache
+build/
+*.o
+
+# External Graphics Library Source Tree
+# (We ignore the cloned folder since it can always be pulled freshly via Git)
+lvgl/
+
+# System or Local Configuration Overrides
+lv_conf.h
+
+# OS Specific Temporary Files
+.DS_Store
+*.swp
+
